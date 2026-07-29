@@ -1,29 +1,14 @@
 {
-  "name": "client",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "P2P File Share Backend",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "node index.js"
   },
   "dependencies": {
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "simple-peer": "^9.11.1",
-    "socket.io-client": "^4.8.3"
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.3",
-    "eslint": "^10.6.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.3",
-    "globals": "^17.7.0",
-    "vite": "^8.1.1"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
   }
 }
