@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import { io } from 'socket.io-client'
 import Peer from 'peerjs'
 
-const socket = io('http://localhost:3001')
+const socket = io('https://p2p-web-share-2-5iiv.onrender.com')
 
 function FileShare() {
   const [roomId, setRoomId] = useState('')
