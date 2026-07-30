@@ -15,4 +15,4 @@ A browser-based P2P file sharing app built with React, Node.js, Socket.io and Pe
 4. Open http://localhost:5173 in two tabs
 
 ## Author
-Saurabh Gaurav - github.com/Saurabhdubey21
+Saurabh Kumar Dubey - github.com/Saurabhdubey21
